@@ -1,0 +1,161 @@
+[
+  {
+    "id": "booki",
+    "title": "Booki",
+    "thumbnail": "/images/booki/cover.webp",
+    "images": [
+      "/images/booki/screen-1.webp",
+      "/images/booki/screen-2.webp",
+      "/images/booki/screen-3.webp",
+      "/images/booki/screen-4.webp"
+    ],
+    "description": {
+      "short": "Site qui permet de trouver des activités et hébergement dans une ville",
+      "long": "Booki est mon premier projet d'intégration web, réalisé dans le cadre de ma formation. L'objectif était d'intégrer une maquette Figma en HTML/CSS — une page de recherche d'hébergements et d'activités avec une mise en page responsive."
+    },
+    "tags": [
+      "HTML",
+      "CSS"
+    ],
+    "github": "https://github.com/donhug/Booki",
+    "live": null,
+    "featured": false
+  },
+  {
+    "id": "ohmyfood",
+    "title": "Ohmyfood",
+    "thumbnail": "/images/ohmyfood/cover.webp",
+    "images": [
+      "/images/ohmyfood/screen-1.webp",
+      "/images/ohmyfood/screen-2.webp",
+      "/images/ohmyfood/screen-3.webp",
+      "/images/ohmyfood/screen-4.webp"
+    ],
+    "description": {
+      "short": "Site de commande en ligne avec animation, développé en mobile-first ",
+      "long": "Ohmyfood est un site de commande de repas en ligne développé de zéro en approche mobile first. Il présente quatre restaurants, chacun avec sa propre page de menu. Le projet m'a permis de prendre en main Sass pour la gestion du CSS et d'implémenter des animations CSS soignées pour enrichir l'expérience utilisateur."
+    },
+    "tags": [
+      "HTML",
+      "SASS"
+    ],
+    "github": "https://github.com/donhug/OhMyFood",
+    "live": "https://donhug.github.io/OhMyFood/",
+    "featured": false
+  },
+  {
+    "id": "sophie-bluel",
+    "title": "Sophie-bluel",
+    "thumbnail": "/images/sophie-bluel/cover.webp",
+    "images": [
+      "/images/sophie-bluel/screen-1.webp",
+      "/images/sophie-bluel/screen-2.webp",
+      "/images/sophie-bluel/screen-3.webp",
+      "/images/sophie-bluel/screen-4.webp"
+    ],
+    "description": {
+      "short": "Portfolio d'une architecte d'intérieur, avec gestion de galerie et autentification via API",
+      "long": "Ce portfolio est mon premier projet JavaScript, développé autour d'une API REST. L'objectif était de créer dynamiquement une galerie de réalisations, d'implémenter un système de login/logout et de permettre à l'administrateur d'ajouter ou supprimer des photos via une modale. Un projet qui m'a introduit à la manipulation du DOM, aux appels fetch et à la gestion de tokens d'authentification."
+    },
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "REST API"
+    ],
+    "github": "https://github.com/donhug/Portfolio-architecte-sophie-bluel",
+    "live": null,
+    "featured": false
+  },
+  {
+    "id": "kasa",
+    "title": "Kasa",
+    "thumbnail": "/images/kasa/cover.webp",
+    "images": [
+      "/images/kasa/screen-1.webp",
+      "/images/kasa/screen-2.webp",
+      "/images/kasa/screen-3.webp",
+      "/images/kasa/screen-4.webp"
+    ],
+    "description": {
+      "short": "Site de location immobilière développé avec React avec des route dynamique",
+      "long": "Kasa est mon premier projet React, et React Router. L'application présente une liste de logements à louer, chacun avec sa propre page de détail générée dynamiquement depuis un fichier JSON. Ce projet m'a permis de prendre en main les composants React, le routing dynamique et les CSS Modules."
+    },
+    "tags": [
+      "React",
+      "React Router",
+      "CSS Modules"
+    ],
+    "github": "https://github.com/donhug/Kasa",
+    "live": null,
+    "featured": false
+  },
+  {
+    "id": "nina-carducci",
+    "title": "Nina-Carducci",
+    "thumbnail": "/images/nina-carducci/cover.webp",
+    "images": [
+      "/images/nina-carducci/screen-1.webp",
+      "/images/nina-carducci/screen-2.webp",
+      "/images/nina-carducci/screen-3.webp"
+    ],
+    "description": {
+      "short": " Audit et Optimisation SEO, performance, et référencement du site d'une photographe ",
+      "long": "Nina Carducci est un projet d'audit et d'optimisation d'un site existant. L'objectif était d'améliorer les performances, le référencement naturel et l'accessibilité. J'ai analysé le site avec Lighthouse, puis appliqué les corrections nécessaires pour atteindre les objectifs demandés "
+    },
+    "tags": [
+      "SEO",
+      "Lighthouse",
+      "Wave",
+      "Rich Snippet"
+    ],
+    "github": "https://github.com/donhug/ninacarducci.github.io",
+    "live": "https://donhug.github.io/ninacarducci.github.io/",
+    "featured": false
+  },
+  {
+    "id": "724-event",
+    "title": "724-event",
+    "thumbnail": "/images/724-event/cover.webp",
+    "images": [
+      "/images/724-event/screen-1.webp",
+      "/images/724-event/screen-2.webp"
+    ],
+    "description": {
+      "short": "debug d'un site d'agence événementielle React avec React DevTools et tests unitaires.",
+      "long": "724 Event est un projet de debug d'une application React existante. L'objectif était de corriger des bugs déjà trouvé et en identifier d'autres à l'aide de React DevTools et d'une suite de tests unitaires avec Yarn. Un projet qui m'a appris, à utiliser les outils de diagnostic React et à m'appuyer sur les tests pour valider les corrections."
+    },
+    "tags": [
+      "React DevTools",
+      "Debug",
+      "Tests unitaires"
+    ],
+    "github": "https://github.com/donhug/Debug-application-React.JS",
+    "live": null,
+    "featured": false
+  },
+  {
+    "id": "argent-bank",
+    "title": "Argent Bank",
+    "thumbnail": "/images/argent-bank/cover.webp",
+    "images": [
+      "/images/argent-bank/screen-1.webp",
+      "/images/argent-bank/screen-2.webp",
+      "/images/argent-bank/screen-3.webp"
+    ],
+    "description": {
+      "short": "Application bancaire React/Redux avec authentification via API.",
+      "long": ""
+    },
+    "tags": [
+      "React",
+      "React Router",
+      "Redux",
+      "Swagger",
+      "REST API"
+    ],
+    "github": "https://github.com/donhug/ArgentBank-Frontend",
+    "live": null,
+    "featured": false
+  }
+]
