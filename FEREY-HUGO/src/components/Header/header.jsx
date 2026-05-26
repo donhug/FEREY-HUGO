@@ -8,9 +8,9 @@ function Header() {
             <div className="header-container">
                 <div className="header-top">
                     <div className="header-logo">
-                        <h1>
+                        <p>
                             H.
-                        </h1>
+                        </p>
                     </div>
                     <button onClick={() => setOpen(!Open)} className="header-btn">
                         <i className={Open ?"fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
