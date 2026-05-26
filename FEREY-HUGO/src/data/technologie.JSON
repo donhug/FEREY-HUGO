@@ -1,0 +1,42 @@
+[
+  {
+    "id": "html",
+    "label": "HTML",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+  },
+  {
+    "id": "css",
+    "label": "CSS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+  },
+  {
+    "id": "sass",
+    "label": "Sass",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+  },
+  {
+    "id": "javascript",
+    "label": "JavaScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    "id": "react",
+    "label": "React",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "id": "react-router",
+    "label": "React Router",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactrouter/reactrouter-original.svg"
+  },
+  {
+    "id": "redux",
+    "label": "Redux",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+  },
+  {
+    "id": "swagger",
+    "label": "Swagger",
+    "icon": ""
+  }
+]
