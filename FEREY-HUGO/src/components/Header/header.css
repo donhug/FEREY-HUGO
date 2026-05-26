@@ -1,0 +1,67 @@
+header{
+    width: 100%;
+}
+.header-container,
+.header-logo,
+.header-top,
+.header-nav.open{
+    display: flex;
+}
+
+.header-container,
+.header-top{
+    justify-content: space-between;
+}
+.header-container,
+.header-nav,
+.header-nav.open{
+    flex-direction: column ;
+}
+
+.header-logo{
+    justify-content: center;
+}
+
+.header-top{
+    align-items: center;
+}
+
+.header-nav{
+    display: none;
+    gap: 10px;
+}
+
+.header-nav.open{
+    align-items: flex-end;
+}
+.header-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Tablette */
+@media (min-width: 768px) {
+    header{
+        border-bottom: 1px gray solid;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-container{
+        flex-direction: row;
+    }
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .header-nav a:hover{
+        color: #EF9F27;
+    }
+}
