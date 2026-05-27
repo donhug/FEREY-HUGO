@@ -15,7 +15,7 @@ function Hero() {
                 </h1>
                 <p>
                     je conçois et intègre des interfaces web soignées, accéssibles et performante.
-                    Formé au Front-end et au Back-end.
+                    Formé au Front-end.
                 </p>
             </div>
             <div className="hero-btn">

@@ -2,9 +2,8 @@
 .hero{
     width: 100%;
     display: flex;
-    padding-top: 75px;
+    padding-top: 35px;
     flex-direction: column;
-    border-bottom: 1px gray solid;
 }
 .hero-title{
     display: flex;

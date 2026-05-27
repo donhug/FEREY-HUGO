@@ -1,0 +1,33 @@
+section{
+    border-bottom: 1px gray solid;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background: #FFF8F0;
+    padding: 2rem;
+}
+
+.content-title{
+    text-transform: uppercase;
+}
+.content-title p{
+    color: #1D9E75;
+}
+
+@media (min-width: 768px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    .content-title{
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
