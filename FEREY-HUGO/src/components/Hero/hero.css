@@ -1,0 +1,91 @@
+/*css titre*/
+.hero{
+    width: 100%;
+    display: flex;
+    padding-top: 75px;
+    flex-direction: column;
+    border-bottom: 1px gray solid;
+}
+.hero-title{
+    display: flex;
+    flex-direction: column;
+}
+.hero-title h1{
+    font-size: 25px;
+    line-height: 0.9;
+}
+.hero-title p{
+    margin-top: 10px;
+}
+.title-color{
+    color: #EF9F27;
+}
+.hero-dispo{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap: 2px;
+    margin-bottom: 15px;
+}
+.hero-dispo p{
+    color: #1D9E75;
+    margin: 0;
+}
+.hero-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*CSS pour le btn vert */
+.glass-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 9999px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: #1D9E75;
+    text-transform: uppercase;
+
+}
+.glass-badge__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse-badge 2s ease infinite;
+}
+.glass-badge--lime {
+    background: rgba(168, 240, 138, 0.2);
+    border: 1px solid rgba(168, 240, 138, 0.4);
+    color: #a8f08a;
+}
+@keyframes pulse-badge {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.4;
+        transform: scale(0.7);
+    }
+}
+
+
+/* Tablette */
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+}

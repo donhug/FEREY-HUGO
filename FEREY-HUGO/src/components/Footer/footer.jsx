@@ -1,5 +1,4 @@
 import './footer.css'
-import App from "../../App.jsx";
 
 function Footer() {
     return (
