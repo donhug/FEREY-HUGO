@@ -5,14 +5,13 @@ section{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    background: #FFF8F0;
     padding: 2rem;
 }
 
-.content-title{
+.content-title, .technos-title{
     text-transform: uppercase;
 }
-.content-title p{
+.content-title p, .technos-title p{
     color: #1D9E75;
 }
 

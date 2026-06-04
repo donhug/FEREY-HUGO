@@ -2,7 +2,7 @@ import './card.css'
 
 function Card(props) {
     return (
-        <div className={`card ${props.className}`}>
+        <div className="card">
             <div className="card-img">
                 <img src={props.img} alt=""/>
             </div>

@@ -4,12 +4,6 @@
     border-radius:15px;
     overflow:hidden;
 }
-.pair{
-    background:linear-gradient(135deg, #FFF8F0, #FAEEDA);
-}
-.impair{
-    background:linear-gradient(135deg, #F0FAFF, #E1F5EE);
-}
 .card-img{
     display:flex;
     align-items:center;

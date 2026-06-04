@@ -1,0 +1,11 @@
+.competence{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border:1px solid grey;
+    border-radius: 10px;
+    align-items: center;
+}
+.competence-img{
+    width: 50%;
+}
