@@ -5,3 +5,10 @@
     border-radius: 99px;
     font-size: 15px;
 }
+
+@media (min-width: 1024px) {
+    .tag{
+        margin-bottom:20px;
+        margin-right:35px;
+    }
+}

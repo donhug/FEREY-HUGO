@@ -67,10 +67,35 @@ section{
     .content-title{
         grid-column: 1 / -1;
     }
+    .about-main{
+        flex-direction: row;
+    }
+    .about-txt{
+        width: 100%;
+    }
+    .about-txt p{
+        margin-bottom: 10px;
+    }
+    .about-tag{
+        width: 25%;
+        align-content: center;
+    }
 }
 
 @media (min-width: 1024px) {
     .content {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .about-txt{
+        padding:20px ;
+        width: 65%;
+    }
+    .about-txt p{
+        font-size: 20px;
+    }
+    .about-tag{
+        width: 25%;
+        margin-top: 20px;
+        align-content: flex-start;
     }
 }

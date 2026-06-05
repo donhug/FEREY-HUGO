@@ -50,13 +50,14 @@ function Accueil() {
             </section>
             <section className="about">
                 <div className="about-title">
-                    <p>technologies acquises</p>
-                    <h2>Compétences</h2>
+                    <p>Qui suis-je</p>
+                    <h2>À Propos</h2>
                 </div>
                 <div className="about-main">
                     <div className="about-txt">
                         <p>
-                            Je m’appelle <span className="name">Hugo</span>, actuellement en formation d’<span className="forma">intégrateur web</span>  chez OpenClassrooms après une
+                            Je m’appelle <span className="name">Hugo</span>, actuellement en formation
+                            d’<span className="forma">intégrateur web</span>  chez OpenClassrooms après une
                             reconversion via France Travail.
                         </p>
                         <p>
