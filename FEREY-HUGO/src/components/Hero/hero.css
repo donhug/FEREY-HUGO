@@ -1,8 +1,11 @@
+section{
+    border-bottom: 1px gray solid;
+}
 /*css titre*/
 .hero{
     width: 100%;
     display: flex;
-    padding-top: 35px;
+    padding-top: 60px;
     flex-direction: column;
 }
 .hero-title{
