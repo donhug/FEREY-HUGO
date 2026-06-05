@@ -1,7 +1,8 @@
 import './technos.css'
 import technos from '../../data/technologie.json'
 import Competence from "../../components/Competence/competence.jsx";
-function Technos(props) {
+
+function Technos() {
     return (
         <section className="technos">
             <div className="technos-title">
