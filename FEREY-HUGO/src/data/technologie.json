@@ -41,7 +41,7 @@
   },
   {
     "id": "github",
-    "label": "gitHub",
+    "label": "GitHub",
     "icon": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-webp@latest/light/github.webp"
   }
 ]
