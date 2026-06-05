@@ -4,8 +4,10 @@ import technos from '../../data/technologie.json'
 import Hero from "../../components/Hero/hero.jsx";
 import Card from "../../components/Card/card.jsx";
 import Competence from "../../components/Competence/competence.jsx";
+import Tag from "../../components/Tag/tag.jsx"
 
 function Accueil() {
+    const skills = ["HTML/CSS", "JavaScript", "React", "Git", "Figma", "Accessibilité"]
     return (
         <>
             <section className="hero">
@@ -14,7 +16,7 @@ function Accueil() {
 
             <section className="content">
                 <div className="content-title">
-                    <p>ce que j'ai réaliser</p>
+                    <p>ce que j'ai réalisé</p>
                     <h2>PROJETS</h2>
                 </div>
                 {projets.map((projet) => (
@@ -34,13 +36,37 @@ function Accueil() {
                     <p>technologies acquises</p>
                     <h2>Compétences</h2>
                 </div>
-                {technos.map((technos) => (
-                    <Competence
-                        key={technos.id}
-                        label={technos.label}
-                        icon={technos.icon}
-                    />
-                ))}
+                <div className="technos-banner">
+                    <div className="technos-tags">
+                        {[...technos, ...technos].map((technos, index) => (
+                            <Competence
+                                key={technos.id}
+                                label={technos.label}
+                                icon={technos.icon}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </section>
+            <section className="about">
+                <div className="about-title">
+                    <p>technologies acquises</p>
+                    <h2>Compétences</h2>
+                </div>
+                <div className="about-main">
+                    <div className="about-txt">
+
+                    </div>
+                    <div className="about-tag">
+                        {skills.map((skill, index) =>(
+                            <Tag
+                                key={index}
+                                txt={skill}
+                            />
+                        ))}
+
+                    </div>
+                </div>
             </section>
         </>
     )

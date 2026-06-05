@@ -1,20 +1,33 @@
 section{
     border-bottom: 1px gray solid;
 }
+/*cards projets*/
 .content{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 2rem;
 }
-
-.content-title, .technos-title{
+/*titres des sections*/
+.content-title, .technos-title, .about-title{
     text-transform: uppercase;
 }
-.content-title p, .technos-title p{
+.content-title p, .technos-title p, .about-title p{
     color: #1D9E75;
 }
-
+/*scroll des technos*/
+.technos{
+}
+.technos-banner{
+    overflow: hidden;
+}
+.technos-tags{
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
+}
+@keyframes scroll {
+    from{ transform: translateX(0); }
+    to{ transform: translateX(-50%); }
+}
 @media (min-width: 768px) {
     .content {
         grid-template-columns: repeat(2, 1fr);

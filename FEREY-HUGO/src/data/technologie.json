@@ -38,5 +38,10 @@
     "id": "swagger",
     "label": "Swagger",
     "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/swagger.svg"
+  },
+  {
+    "id": "github",
+    "label": "gitHub",
+    "icon": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-webp@latest/light/github.webp"
   }
 ]
