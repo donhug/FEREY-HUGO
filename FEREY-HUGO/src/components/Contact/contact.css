@@ -8,3 +8,7 @@ section{
 .contact-title p{
     color: #1D9E75;
 }
+.contact-link{
+    display: flex;
+    gap: 10px;
+}
