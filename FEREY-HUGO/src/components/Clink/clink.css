@@ -1,5 +1,20 @@
 .main{
+    width: 100%;
+}
+
+.main-link{
     border:1px solid #EF9F27;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding:1px 5px;
+}
+
+@media (min-width: 768px) {
+    .main{
+        width: 50%;
+    }
+}
+@media (min-width: 1024px) {
 }

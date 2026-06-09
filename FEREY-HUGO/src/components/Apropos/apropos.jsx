@@ -23,8 +23,6 @@ function Apropos() {
                     </p>
                     <p>
                         Curieux et motivé, je cherche à renforcer mes compétences à travers des projets concrets.
-                        À terme, je souhaite évoluer dans le développement web avant de me spécialiser en
-                        cybersécurité.
                     </p>
 
                 </div>

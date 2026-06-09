@@ -1,8 +1,7 @@
 import './contact.css'
-import Form from "../../components/Form/form.jsx"
 import Clink from "../Clink/clink.jsx";
 
-function Contact(props) {
+function Contact() {
     return (
         <section className="contact">
             <div className="contact-title">
@@ -10,14 +9,12 @@ function Contact(props) {
                 <h2>Contact</h2>
             </div>
             <div className="contact-main">
-                <div className="contact-form">
-                    <Form
-                        nom="NOM"
-                        mail="MAIL"
-                        msg="MESSAGE"
-                    />
-                </div>
                 <div className="contact-link">
+                    <Clink
+                        link="mailto:ferey.hugo@gmail.com"
+                        icon="fa-solid fa-envelope"
+                        name="M'envoyer un mail"
+                    />
                     <Clink
                         link="https://github.com/donhug"
                         icon="fa-brands fa-github"

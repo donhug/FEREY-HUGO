@@ -8,7 +8,60 @@ section{
 .contact-title p{
     color: #1D9E75;
 }
+.contact-main{
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
 .contact-link{
+    position: relative;
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.contact-link::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 15px;
+    background: linear-gradient(var(--angle), #EF9F27, #1D9E75, #EF9F27);
+    animation: rotate 3s linear infinite;
+    z-index: -1;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotate {
+    to { --angle: 360deg; }
+}
+.contact-link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 99px;
+}
+@media (min-width: 768px) {
+    .contact-link{
+        display: flex;
+        align-items: center;
+        max-width: 600px;
+    }
+}
+@media (min-width: 1024px) {
+    .contact-link{
+        flex-direction: row;
+        max-width: 900px;
+    }
 }
