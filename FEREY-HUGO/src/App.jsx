@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from "./components/Header/header.jsx";
 import Footer from "./components/Footer/footer.jsx";
 import Accueil from "./pages/Accueil/Accueil.jsx";
+import Projet from "./pages/Projet/Projet.jsx";
 function App() {
 
   return (
@@ -12,7 +13,7 @@ function App() {
             <Header/>
               <Routes>
                   <Route path="/" element={<Accueil/>} />
-                  <Route path="/Projet/:id" element={<div>projet</div>}/>
+                  <Route path="/Projet/:id" element={<Projet/>}/>
                   <Route path="*" element={<div>404</div>}/>
               </Routes>
             <Footer/>

@@ -1,0 +1,62 @@
+.carrousel{
+    overflow: hidden;
+    height: 100%;
+    border-radius: 25px;
+    position: relative;
+    object-fit: cover;
+    border:1px var(--primary-color) solid;
+}
+.carrousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+.carrousel__button{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 50%;
+}
+
+.btn__gauche{
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    left: 20px;
+    top: 35%;
+    transform: translateY(50%);
+}
+.btn__droite{
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    right: 20px;
+    top: 35%;
+    transform: translateY(50%);
+}
+.carrousel__index{
+    position: absolute;
+    right: 50%;
+    top: 90%;
+    color: white;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .carrousel{
+        height: 255px;
+    }
+    .btn__gauche img{
+        width: 15px;
+    }
+    .btn__droite img{
+        width: 15px;
+    }
+    .carrousel__index{
+        display: none;
+    }
+}
