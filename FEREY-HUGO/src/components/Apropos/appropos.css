@@ -1,12 +1,12 @@
 section{
-    border-bottom: 1px gray solid;
+    border-bottom: 1px var(--border-color) solid;
 }
 /*titres des sections*/
 .about-title{
     text-transform: uppercase;
 }
 .about-title p{
-    color: #1D9E75;
+    color: var(--secondary-color);
 }
 /* section à propos*/
 .about-main{
@@ -14,18 +14,18 @@ section{
     flex-direction: column;
 }
 .about-txt{
-    border:1px #EF9F27 solid;
+    border:1px var(--primary-color) solid;
     border-radius: 15px;
     text-align: center;
     margin: 10px 0;
 }
 .name{
     font-weight: bold;
-    color: #EF9F27;
+    color: var(--primary-color);
 }
 .forma{
     font-weight: bold;
-    color: #1D9E75;
+    color: var(--secondary-color);
 }
 .about-txt p{
     margin-bottom: 20px;

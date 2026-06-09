@@ -72,6 +72,6 @@ header{
 /* Desktop */
 @media (min-width: 1024px) {
     .header-nav a:hover{
-        color: #EF9F27;
+        color: var(--primary-color);
     }
 }

@@ -4,10 +4,10 @@
     align-items: center;
 }
 .a-color{
-    color:#1D9E75;
+    color:var(--secondary-color);
 }
 .h-color{
-    color: #EF9F27;
+    color: var(--primary-color);
 }
 
 @media (min-width: 768px) {

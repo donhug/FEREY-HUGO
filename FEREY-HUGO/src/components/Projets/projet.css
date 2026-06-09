@@ -1,5 +1,5 @@
 section{
-    border-bottom: 1px gray solid;
+    border-bottom: 1px var(--border-color) solid;
 }
 /*cards projets*/
 .content{
@@ -10,7 +10,7 @@ section{
     text-transform: uppercase;
 }
 .content-title p{
-    color: #1D9E75;
+    color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {

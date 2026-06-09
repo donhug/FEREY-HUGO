@@ -3,7 +3,7 @@
 }
 
 .main-link{
-    border:1px solid #EF9F27;
+    border:1px solid var(--primary-color);
     display: flex;
     align-items: center;
     flex-direction: column;

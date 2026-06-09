@@ -1,6 +1,6 @@
 .btn{
     background:none;
-    border:1px gray solid;
+    border:1px var(--border-color) solid;
     border-radius:5px;
     width:auto;
     padding:5px;
