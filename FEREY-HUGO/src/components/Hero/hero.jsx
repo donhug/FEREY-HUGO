@@ -21,9 +21,11 @@ function Hero() {
                 </div>
                 <div className="hero-btn">
                     <Button
+                        href="#contact"
                         txt='Me contacter'
                     />
                     <Button
+                        href="#projets"
                         txt='Voir mes projets'
                     />
                 </div>

@@ -4,13 +4,14 @@ import Card from "../../components/Card/card.jsx";
 
 function Projets() {
     return (
-        <section className="content">
+        <section className="content" id="projets">
             <div className="content-title">
                 <p>ce que j'ai réalisé</p>
                 <h2>PROJETS</h2>
             </div>
             {projets.map((projet) => (
                 <Card
+                    id={projet.id}
                     key={projet.id}
                     img={projet.thumbnail}
                     title={projet.title}

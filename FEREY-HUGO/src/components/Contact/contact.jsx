@@ -3,7 +3,7 @@ import Clink from "../Clink/clink.jsx";
 
 function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contact-title">
                 <p>Vous voulez prendre</p>
                 <h2>Contact</h2>
