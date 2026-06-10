@@ -29,6 +29,9 @@
     margin: 10px 0 10px 0;
     font-size: 30px;
 }
+.btn__droite:hover,.btn__gauche:hover{
+    color:var(--secondary-color);
+}
 @media (min-width: 768px) {
 }
 
