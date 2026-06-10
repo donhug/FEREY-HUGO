@@ -3,7 +3,7 @@ import {useState} from "react";
 
 const Carrousel = (props) => {
     const [index, setIndex] = useState(0)
-    const suivant= () =>{
+    const arriere= () =>{
         setIndex(prev =>{
                 if(prev === props.images.length-1 ){
                     return 0
@@ -22,24 +22,27 @@ const Carrousel = (props) => {
         )
     }
     return <>
-
         <div className="carrousel">
-            <img className="carrousel__image" src={props.images[index]} alt="photo du logement" />
-            {props.images.length > 1 &&
-                <>
-                    <button onClick={suivant} className="btn__droite">
-                        <i className="fa-solid fa-angle-right"></i>
-                    </button>
-                    <button onClick={avant} className="btn__gauche">
-                        <i className="fa-solid fa-angle-left"></i>
-                    </button>
-                    <div className="carrousel__index">
-                        <p>{index+1}/{props.images.length}</p>
-                    </div>
-                </>
-            }
-        </div>
+            <div className="carrousel__img-container">
+                <img className="carrousel__image" src={props.images[index]} alt="photo du logement" />
+            </div>
 
+        </div>
+            {props.images.length > 1 &&
+                    <div className="carrousel__bottom">
+                        <div className="carrousel__index">
+                            <p>{index+1}/{props.images.length}</p>
+                        </div>
+                        <div className="carrousel__btn">
+                            <button onClick={avant} className="btn__droite">
+                                <i className="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button onClick={arriere} className="btn__gauche">
+                                <i className="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+            }
     </>
 }
 export default Carrousel;
