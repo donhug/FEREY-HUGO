@@ -8,9 +8,15 @@ function Projet(){
     const projet = projets.find((projet) => projet.id === id)
     return (
         <>
-            <Carrousel
-                images={projet.images}
-            />
+            <div className="main">
+                <div className="title">
+                    <h1>{projet.title}</h1>
+                </div>
+
+                <Carrousel
+                    images={projet.images}
+                />
+            </div>
         </>
     )
 }
