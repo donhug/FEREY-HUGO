@@ -1,6 +1,11 @@
 section{
     border-bottom: 1px var(--border-color) solid;
 }
+.section-inner{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
 /*titres des sections*/
 .contact-title{
     text-transform: uppercase;

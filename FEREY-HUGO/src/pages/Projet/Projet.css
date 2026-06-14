@@ -1,3 +1,8 @@
+.section-inner{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
 .projet-main{
     display: flex;
     flex-direction: column;

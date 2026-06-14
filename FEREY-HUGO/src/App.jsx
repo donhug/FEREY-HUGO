@@ -8,17 +8,15 @@ function App() {
 
   return (
     <>
-      <div className="wrapper-app">
-          <Router>
+        <Router>
             <Header/>
-              <Routes>
-                  <Route path="/" element={<Accueil/>} />
-                  <Route path="/Projet/:id" element={<Projet/>}/>
-                  <Route path="*" element={<div>404</div>}/>
-              </Routes>
+            <Routes>
+                <Route path="/" element={<Accueil/>} />
+                <Route path="/Projet/:id" element={<Projet/>}/>
+                <Route path="*" element={<div>404</div>}/>
+            </Routes>
             <Footer/>
           </Router>
-      </div>
     </>
   )
 }
