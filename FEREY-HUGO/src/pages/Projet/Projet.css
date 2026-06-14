@@ -12,7 +12,24 @@
     border:1px var(--border-color) solid ;
     border-radius: 30px;
 }
-
+.projet-info{
+    border:1px var(--border-color) solid ;
+    border-radius: 30px;
+    padding: 20px;
+}
+.projet-tags, .projet-description, .projet-git{
+    margin: 10px 0;
+}
+.projet-tags{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.projet-git{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 @media (min-width: 768px) {
 }
 

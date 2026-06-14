@@ -1,8 +1,16 @@
 import './carrousel.css'
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const Carrousel = (props) => {
     const [index, setIndex] = useState(0)
+    useEffect(() => {
+        const insterval = setInterval(() => {
+            setIndex(prev =>(prev + 1) % props.images.length)
+        }, 3000)
+
+        return () => clearInterval(insterval)
+    }, [props.images.length])
+
     const arriere= () =>{
         setIndex(prev =>{
                 if(prev === props.images.length-1 ){
