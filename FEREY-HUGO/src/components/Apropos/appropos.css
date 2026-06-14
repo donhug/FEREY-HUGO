@@ -1,5 +1,4 @@
 .section-about{
-    border-bottom: 1px var(--border-color) solid;
     background-color: var(--sec--background-color);
 }
 .section-inner{

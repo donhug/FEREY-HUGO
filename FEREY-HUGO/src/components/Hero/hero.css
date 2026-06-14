@@ -1,5 +1,4 @@
 .section-hero{
-    border-bottom: 1px var(--border-color) solid;
     background-color: var(--background-color);
 }
 .section-inner{
