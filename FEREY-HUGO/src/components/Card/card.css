@@ -1,5 +1,6 @@
 .card{
     border:1px var(--border-color) solid;
+    background-color: var(--background-color);
     width: 100%;
     border-radius:15px;
     overflow:hidden;
@@ -36,7 +37,7 @@
 }
 .card-info li{
     border:1px transparent solid;
-    background-color:red;
+    background-color: var(--primary-color);
     width:auto;
     padding:2px 8px;
     border-radius:20px;

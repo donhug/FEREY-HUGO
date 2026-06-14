@@ -4,7 +4,7 @@ import Card from "../../components/Card/card.jsx";
 
 function Projets() {
     return (
-        <section id="projets">
+        <section id="projets" className="section-projets">
             <div className="section-inner">
                 <div className="content">
                     <div className="content-title">

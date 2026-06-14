@@ -3,7 +3,7 @@ import Button from "../Button/button.jsx";
 
 function Hero() {
     return (
-        <section>
+        <section className="section-hero">
             <div className="section-inner">
                 <div className="hero">
                     <div className="hero-title">

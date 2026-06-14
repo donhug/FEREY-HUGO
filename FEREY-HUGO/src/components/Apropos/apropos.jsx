@@ -4,7 +4,7 @@ import Tag from "../../components/Tag/tag.jsx"
 function Apropos() {
     const skills = ["HTML/CSS", "JavaScript", "React", "GitHub", "Figma", "Accessibilité"]
     return (
-        <section className="about">
+        <section className="section-about">
             <div className="section-inner">
                 <div className="about-title">
                     <p>Qui suis-je</p>

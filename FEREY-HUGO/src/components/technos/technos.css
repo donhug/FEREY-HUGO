@@ -1,5 +1,6 @@
-section{
+.section-technos{
     border-bottom: 1px var(--border-color) solid;
+    background-color: var(--background-color);
 }
 .section-inner{
     max-width: 1200px;

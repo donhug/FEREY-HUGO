@@ -1,7 +1,9 @@
+
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--sec--background-color);
 }
 .a-color{
     color:var(--secondary-color);
