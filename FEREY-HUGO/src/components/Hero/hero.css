@@ -35,7 +35,7 @@
     margin-bottom: 15px;
 }
 .hero-dispo p{
-    color: var(--secondary-color);
+    color: var(--available-color);
     margin: 0;
 }
 .hero-btn{
@@ -54,7 +54,7 @@
     font-size: 0.68rem;
     font-weight: 500;
     letter-spacing: 0.08em;
-    color: var(--secondary-color);
+    color: var(--available-color);
     text-transform: uppercase;
 
 }

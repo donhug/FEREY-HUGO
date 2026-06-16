@@ -11,6 +11,7 @@
     text-transform: uppercase;
 }
 .about-title p{
+    font-weight: bolder;
     color: var(--secondary-color);
 }
 /* section à propos*/

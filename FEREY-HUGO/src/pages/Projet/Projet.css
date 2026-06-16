@@ -36,6 +36,11 @@
     justify-content: center;
     gap: 20px;
 }
+.github-hover:hover{
+    color: #5B5BD6;
+    transform: scale(1.05);
+    transition: color 0.2s ease, transform 0.2s;
+}
 @media (min-width: 768px) {
 }
 

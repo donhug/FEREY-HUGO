@@ -1,10 +1,13 @@
 :root{
-    --primary-color:#f582ae;
-    --secondary-color:#8bd3dd;
-    --text-color:#001858;
-    --background-color: #fef6e4;
-    --sec--background-color: #f3d2c1;
-    --border-color:#001858;
+    --available-color:#1D6A3A;
+    --primary-color:#5B5BD6;
+    --link-color:white;
+    --tag-color:#ff8e3c;
+    --secondary-color:#5B5BD6;
+    --text-color:#2d334a;
+    --background-color:#F5F5F5;
+    --sec--background-color:white;
+    --border-color:#ff8e3c;
 }
 
 *, *::before, *::after {

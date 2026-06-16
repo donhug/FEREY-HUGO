@@ -4,6 +4,7 @@
     padding: 1px 5px;
     border-radius: 99px;
     font-size: 15px;
+    background-color: var(--tag-color);
 }
 
 @media (min-width: 1024px) {

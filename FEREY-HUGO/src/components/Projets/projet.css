@@ -16,6 +16,7 @@
     text-transform: uppercase;
 }
 .content-title p{
+    font-weight: bolder;
     color: var(--secondary-color);
 }
 

@@ -8,19 +8,19 @@ function Header() {
             <div className="header-container">
                 <div className="header-top">
                     <div className="header-logo">
-                        <p>
+                        <a href="/">
                             H.
-                        </p>
+                        </a>
                     </div>
                     <button onClick={() => setOpen(!Open)} className="header-btn">
                         <i className={Open ?"fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
                     </button>
                 </div>
                 <div className={`header-nav ${Open ? 'open' : ''}`}>
-                    <a href="/">A propos</a>
-                    <a href="/">Projets</a>
-                    <a href="/">Compétences</a>
-                    <a href="/">Contact</a>
+                    <a href="#section-about">A propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#section-technos">Compétences</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </header>

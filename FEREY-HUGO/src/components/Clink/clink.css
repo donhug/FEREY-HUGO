@@ -3,15 +3,18 @@
 }
 
 .main-link{
-    background-color: var(--primary-color);
+    border: 1px var(--border-color) solid;
+    background-color: var(--link-color);
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     padding:1px 5px;
+    transition: transform 0.2s ease;
 }
 .main-link:hover{
-
+    transform: translateY(-10px);
+    background-color: var(--tag-color);
 }
 
 @media (min-width: 768px) {

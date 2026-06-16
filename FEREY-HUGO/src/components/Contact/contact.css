@@ -12,6 +12,7 @@
     text-transform: uppercase;
 }
 .contact-title p{
+    font-weight: bolder;
     color: var(--secondary-color);
 }
 .contact-main{

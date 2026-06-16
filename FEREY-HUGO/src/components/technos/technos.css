@@ -11,6 +11,7 @@
     text-transform: uppercase;
 }
 .technos-title p{
+    font-weight: bolder;
     color: var(--secondary-color);
 }
 /*scroll des technos*/
