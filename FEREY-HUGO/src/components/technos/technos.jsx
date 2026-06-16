@@ -4,7 +4,7 @@ import Competence from "../../components/Competence/competence.jsx";
 
 function Technos() {
     return (
-        <section className="section-technos">
+        <section className="section-technos" id="section-technos">
             <div className="section-inner">
                 <div className="technos-title">
                     <p>technologies acquises</p>

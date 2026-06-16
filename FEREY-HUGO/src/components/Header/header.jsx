@@ -1,5 +1,6 @@
 import './header.css'
-import {useState} from 'react'
+import {useState } from 'react'
+import { HashLink } from 'react-router-hash-link'
 
 function Header() {
     const [Open, setOpen] = useState(false)
@@ -17,10 +18,10 @@ function Header() {
                     </button>
                 </div>
                 <div className={`header-nav ${Open ? 'open' : ''}`}>
-                    <a href="#section-about">A propos</a>
-                    <a href="#projets">Projets</a>
-                    <a href="#section-technos">Compétences</a>
-                    <a href="#contact">Contact</a>
+                    <HashLink to="/#projets">Projets</HashLink>
+                    <HashLink to="/#section-technos">Compétences</HashLink>
+                    <HashLink to="/#section-about">A propos</HashLink>
+                    <HashLink to="/#contact">Contact</HashLink>
                 </div>
             </div>
         </header>
