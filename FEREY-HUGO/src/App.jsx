@@ -10,11 +10,14 @@ function App() {
     <>
         <Router>
             <Header/>
-            <Routes>
-                <Route path="/" element={<Accueil/>} />
-                <Route path="/Projet/:id" element={<Projet/>}/>
-                <Route path="*" element={<div>404</div>}/>
-            </Routes>
+            <main>
+                <Routes>
+                    <Route path="/" element={<Accueil/>} />
+                    <Route path="/Projet/:id" element={<Projet/>}/>
+                    <Route path="*" element={<div>404</div>}/>
+                </Routes>
+            </main>
+
             <Footer/>
           </Router>
     </>

@@ -1,5 +1,5 @@
 import './contact.css'
-import Clink from "../Clink/clink.jsx";
+import Clink from '../Clink/clink.jsx';
 
 function Contact() {
     return (

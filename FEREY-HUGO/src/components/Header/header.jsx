@@ -13,7 +13,7 @@ function Header() {
                             H.
                         </a>
                     </div>
-                    <button onClick={() => setOpen(!Open)} className="header-btn">
+                    <button onClick={() => setOpen(!Open)} className="header-btn" aria-label="Menu de navigation">
                         <i className={Open ?"fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
                     </button>
                 </div>

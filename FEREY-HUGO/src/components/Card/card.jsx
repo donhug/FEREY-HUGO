@@ -6,7 +6,7 @@ function Card(props) {
         <div className="card">
             <Link to={`/Projet/${props.id}`} className="card-main">
                 <div className="card-img">
-                    <img src={props.img} alt="" />
+                    <img src={props.img} alt={`image de couverture du projet ${props.title}`} />
                 </div>
 
                 <div className="card-info">
