@@ -3,10 +3,13 @@ import {useParams} from "react-router-dom"
 import projets from '../../data/projet.json'
 import Carrousel from "../../components/Carrousel/carrousel.jsx";
 import Tag from "../../components/Tag/tag.jsx";
+import Erreur from "../Erreur/Erreur.jsx";
 
 function Projet(){
     const {id} = useParams();
     const projet = projets.find((projet) => projet.id === id)
+    if (projet === undefined) return ( <Erreur/> )
+
     return (
         <>
             <section className="projet-main">
