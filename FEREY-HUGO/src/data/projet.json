@@ -11,7 +11,11 @@
     ],
     "description": {
       "short": "Site qui permet de trouver des activités et hébergements dans une ville",
-      "long": "Booki est mon premier projet d'intégration web, réalisé dans le cadre de ma formation. L'objectif était d'intégrer une maquette Figma en HTML/CSS — une page de recherche d'hébergements et d'activités avec une mise en page responsive."
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "HTML",
@@ -33,7 +37,11 @@
     ],
     "description": {
       "short": "Site de commande en ligne avec animations, développé en mobile-first ",
-      "long": "Ohmyfood est un site de commande de repas en ligne développé de zéro, en approche mobile first. Il présente quatre restaurants, chacun avec sa propre page de menu. Le projet m'a permis de prendre en main Sass, pour la gestion du CSS et d'implémenter des animations CSS soignées pour enrichir l'expérience utilisateur."
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "HTML",
@@ -55,7 +63,11 @@
     ],
     "description": {
       "short": "Portfolio d'une architecte d'intérieur, avec gestion de galerie et autentification via API",
-      "long": "Ce portfolio est mon premier projet JavaScript, développé autour d'une API REST. L'objectif était de créer dynamiquement une galerie de réalisations, d'implémenter un système de login/logout et de permettre à l'administrateur d'ajouter ou supprimer des photos via une modale. Un projet qui m'a introduit à la manipulation du DOM, aux appels fetch et à la gestion de token d'authentification."
+      "contexte": "Sophie Bluel est mon premier projet en JavaScript, marquant la transition entre l'intégration statique (HTML/CSS) et le développement dynamique côté client.",
+      "objectifs":"L'enjeu était de manipuler une API REST pour la première fois : récupérer des données dynamiquement, gérer l'authentification (login/logout), et permettre l'ajout et la suppression de contenu via des requêtes fetch.",
+      "competences":"Ce projet m'a permis de comprendre la syntaxe et la logique du JavaScript, la manipulation du DOM, les appels asynchrones avec fetch, ainsi que la gestion d'un système d'authentification par token.",
+      "resultats":"Le projet a répondu aux attentes du cahier des charges, avec une galerie dynamique fonctionnelle et un mode administrateur complet (ajout/suppression de projets).",
+      "amelioration":"Avec le recul, je pense que le code aurait pu être mieux découpé en fonctions plus petites et réutilisables — certaines parties restent difficiles à relire. Aujourd'hui je referais probablement ce projet avec React pour structurer plus clairement les composants, même si j'apprends à choisir le bon outil selon le contexte plutôt que d'utiliser React systématiquement."
     },
     "tags": [
       "HTML",
@@ -79,7 +91,11 @@
     ],
     "description": {
       "short": "Site de locations immobilière développé avec React avec des routes dynamiques",
-      "long": "Kasa est mon premier projet React, et React Router. L'application présente une liste de logements à louer, chacun avec sa propre page de détails générés dynamiquement depuis un fichier JSON. Ce projet m'a permis de prendre en main, les composants React, le routing dynamique et les modules CSS."
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "React",
@@ -101,7 +117,11 @@
     ],
     "description": {
       "short": "Audit et Optimisation SEO, performance, et référencement du site d'une photographe ",
-      "long": "Le site de Nina Carducci est un projet d'audit et d'optimisation d'un site existant. L'objectif était d'améliorer les performances, le référencement naturel et l'accessibilité. J'ai analysé le site avec Lighthouse, puis appliqué les corrections nécessaires pour atteindre les objectifs demandés "
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "SEO",
@@ -123,7 +143,11 @@
     ],
     "description": {
       "short": "Debug d'un site d'agence événementielle React avec React DevTools et tests unitaires.",
-      "long": "724 Event est un projet de debug d'une application React existante. L'objectif était de corriger des bugs déjà trouvés et en identifier d'autres à l'aide de React DevTools et d'une suite de tests unitaires avec Yarn. Un projet qui m'a appris, à utiliser les outils de diagnostic React et à m'appuyer sur les tests pour valider les corrections."
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "React DevTools",
@@ -145,7 +169,11 @@
     ],
     "description": {
       "short": "Application bancaire React/Redux avec authentification via API.",
-      "long": ""
+      "contexte": "",
+      "objectifs": "",
+      "competences": "",
+      "resultats": "",
+      "amelioration": ""
     },
     "tags": [
       "React",

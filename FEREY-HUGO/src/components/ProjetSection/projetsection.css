@@ -1,0 +1,12 @@
+.projetsection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.projetsection h3{
+    color:var(--secondary-color);
+}
+.projetsection-txt{
+    margin: 10px 0;
+}

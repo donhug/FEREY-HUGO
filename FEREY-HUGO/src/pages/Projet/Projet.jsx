@@ -4,6 +4,7 @@ import projets from '../../data/projet.json'
 import Carrousel from "../../components/Carrousel/carrousel.jsx";
 import Tag from "../../components/Tag/tag.jsx";
 import Erreur from "../Erreur/Erreur.jsx";
+import Projetsection from "../../components/ProjetSection/projetsection.jsx"
 
 function Projet(){
     const {id} = useParams();
@@ -33,11 +34,13 @@ function Projet(){
                                     />
                                 ))}
                             </div>
-                            <div className="projet-description">
-                                <p>
-                                    {projet.description.long}
-                                </p>
-                            </div>
+
+                            <Projetsection titre="Contexte" texte={projet.description.contexte} />
+                            <Projetsection titre="Objectifs" texte={projet.description.objectifs} />
+                            <Projetsection titre="Comptétences développées" texte={projet.description.competences} />
+                            <Projetsection titre="Résultats" texte={projet.description.resultats} />
+                            <Projetsection titre="Perspective d'amélioration" texte={projet.description.amelioration} />
+
                             <div className="projet-git">
                                 <a href={projet.github} target="_blank" rel="noreferrer" className="github-hover">
                                     <i className="fa-brands fa-github"></i>

@@ -19,11 +19,11 @@
     border-radius: 30px;
 }
 .projet-info{
-    border:1px var(--border-color) solid ;
+    /*border:1px var(--border-color) solid ;*/
     border-radius: 30px;
     padding: 20px;
 }
-.projet-tags, .projet-description, .projet-git{
+.projet-tags, .projet-git{
     margin: 10px 0;
 }
 .projet-tags{
