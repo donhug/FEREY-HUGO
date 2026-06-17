@@ -11,11 +11,11 @@
     ],
     "description": {
       "short": "Site qui permet de trouver des activités et hébergements dans une ville",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "Booki est mon premier projet d'intégration web, réalisé dans le cadre de ma formation.",
+      "objectifs": "L'enjeu était d'apprendre à intégrer une maquette Figma en HTML/CSS — comprendre la structure sémantique d'une page, le positionnement des éléments et les bases du responsive design.",
+      "competences": "Ce projet m'a permis de poser les fondations du HTML sémantique et du CSS : la structure d'une page web, le modèle de boîte, le Flexbox, et les premières notions de media queries pour le responsive.",
+      "resultats": "Le projet a abouti à une page fonctionnelle et responsive, fidèle à la maquette fournie, validée par mon mentor.",
+      "amelioration": "Avec le recul, le CSS aurait pu être mieux organisé — beaucoup de répétitions que je gérerais aujourd'hui avec des variables CSS ou une approche plus modulaire comme Sass."
     },
     "tags": [
       "HTML",
@@ -37,11 +37,11 @@
     ],
     "description": {
       "short": "Site de commande en ligne avec animations, développé en mobile-first ",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "Ohmyfood est mon deuxième projet d'intégration, développé en approche mobile first. Il présente un site de commande de repas pour quatre restaurants fictifs.",
+      "objectifs": "L'enjeu était de passer à une méthodologie mobile first, de découvrir le préprocesseur Sass, et d'intégrer des animations CSS pour enrichir l'expérience utilisateur — notamment une animation de chargement et des effets au survol.",
+      "competences": "Ce projet m'a permis de prendre en main Sass pour structurer mon CSS de façon plus modulaire, et de comprendre les keyframes CSS pour créer des animations de chargement et des transitions au survol des éléments.",
+      "resultats": "Le site final est entièrement responsive avec des animations soignées qui valorisent l'expérience utilisateur dès l'arrivée sur la page.",
+      "amelioration": "Les animations restent assez basiques — aujourd'hui je pourrais aller plus loin en explorant des animations plus élaborées ou des bibliothèques spécialisées si le projet était en React."
     },
     "tags": [
       "HTML",
@@ -91,11 +91,11 @@
     ],
     "description": {
       "short": "Site de locations immobilière développé avec React avec des routes dynamiques",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "Kasa est mon premier projet en React, une application de location immobilière présentant une liste de logements avec une page de détail pour chacun.",
+      "objectifs": "L'enjeu était de découvrir l'écosystème React — les composants, les props, le state — ainsi que React Router pour gérer une navigation dynamique entre la liste des logements et leurs pages de détail.",
+      "competences": "Ce projet a marqué ma transition du JavaScript vanilla vers React. J'ai appris à découper une interface en composants réutilisables, à passer des données via les props, et à mettre en place du routing dynamique avec React Router.",
+      "resultats": "Une application fonctionnelle et responsive, avec une navigation fluide entre les logements grâce au routing dynamique.",
+      "amelioration": "Le début a été complexe le temps de comprendre la logique de React et du routing simultanément, mais une fois les bases posées tout devient beaucoup plus naturel — ce que confirment mes projets suivants comme ce portfolio."
     },
     "tags": [
       "React",
@@ -117,11 +117,11 @@
     ],
     "description": {
       "short": "Audit et Optimisation SEO, performance, et référencement du site d'une photographe ",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "Nina Carducci est un projet d'audit et d'optimisation d'un site existant — le portfolio d'une photographe — plutôt qu'une création from scratch.",
+      "objectifs": "L'enjeu était d'améliorer les performances, l'accessibilité et le référencement d'un site déjà en ligne : optimiser les images, corriger les problèmes d'accessibilité détectés par Wave, et enrichir le SEO avec des balises meta, OpenGraph et des données structurées Schema.org (LocalBusiness).",
+      "competences": "Ce projet m'a confronté à un exercice différent des autres : diagnostiquer du code existant avec Lighthouse et Wave, comprendre les critères techniques derrière chaque alerte, convertir des images au format WebP, et structurer des données pour le référencement local.",
+      "resultats": "Le site a atteint un score de performance de 93 sur Lighthouse (contre 74 initialement), avec 100 sur l'accessibilité, le SEO et les bonnes pratiques.",
+      "amelioration": "Ce projet a été plus pénible que les autres car il fallait jongler entre de nombreux outils et critères techniques simultanément — une expérience exigeante mais qui m'a beaucoup appris sur les coulisses techniques d'un site performant."
     },
     "tags": [
       "SEO",
@@ -143,11 +143,11 @@
     ],
     "description": {
       "short": "Debug d'un site d'agence événementielle React avec React DevTools et tests unitaires.",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "724 Event est un projet de débogage d'une application React existante, une agence événementielle fictive.",
+      "objectifs": "L'enjeu était de rédiger un cahier de recette, d'identifier et corriger des bugs à l'aide de React DevTools, tout en validant les corrections avec une suite de tests unitaires.",
+      "competences": "Ce projet m'a permis de prendre en main React DevTools pour diagnostiquer une application existante, et de comprendre l'intérêt des tests unitaires pour sécuriser les corrections de bugs.",
+      "resultats": "L'enjeu était de compléter un cahier de recette en identifiant et corrigeant des bugs à l'aide de React DevTools, tout en validant les corrections avec une suite de tests unitaires.",
+      "amelioration": "La prise en main de React DevTools a pris du temps au début — avec l'expérience, ce type de diagnostic serait aujourd'hui beaucoup plus rapide."
     },
     "tags": [
       "React DevTools",
@@ -169,11 +169,11 @@
     ],
     "description": {
       "short": "Application bancaire React/Redux avec authentification via API.",
-      "contexte": "",
-      "objectifs": "",
-      "competences": "",
-      "resultats": "",
-      "amelioration": ""
+      "contexte": "ArgentBank est une application bancaire, à l'origine fournie en HTML/CSS statique, que j'ai dû transformer en application React connectée à une API backend.",
+      "objectifs": "L'enjeu était de structurer une application React autour de Redux pour la gestion du state global, d'implémenter un système d'authentification complet (login/logout, modification du profil), et de documenter les routes API de gestion des transactions avec Swagger.",
+      "competences": "Ce projet m'a permis d'approfondir Redux pour la gestion d'un state global complexe, ainsi que la rédaction de documentation API au format Swagger/YAML — une syntaxe stricte où la moindre erreur d'indentation peut tout casser.",
+      "resultats": "L'application bancaire est fonctionnelle, avec authentification, modification de profil et documentation Swagger complète, validée par mon mentor.",
+      "amelioration": "Redux a représenté la plus grande difficulté du projet — avec le recul, une meilleure compréhension du flux de données dès le départ aurait accéléré le développement. Le reste, React et la transformation HTML/CSS, restait davantage dans ma zone de confort."
     },
     "tags": [
       "React",
