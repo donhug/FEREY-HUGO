@@ -34,15 +34,6 @@
     margin: 0 auto;
 }
 
-@property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-}
-
-@keyframes rotate {
-    to { --angle: 360deg; }
-}
 .contact-link a {
     display: flex;
     align-items: center;

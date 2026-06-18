@@ -11,6 +11,13 @@
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
+.card-info h3{
+    transition: color 0.2s ease;
+}
+.card:hover .card-info h3{
+    color: var(--border-color);
+}
+
 .card-img{
     display:flex;
     align-items:center;
@@ -56,4 +63,11 @@
     gap:1rem;
     margin-top: auto;
     font-size:0.75rem;
+}
+.card-git a{
+    transition: all 0.2s ease;
+}
+.card-git a:hover{
+    color: var(--primary-color);
+    transform: translateY(-2px);
 }
