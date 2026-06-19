@@ -31,7 +31,7 @@
 }
 .btn__droite:hover,.btn__gauche:hover{
     transition: transform 0.3s ease, color 0.2s;
-    color:var(--secondary-color);
+    color:var(--hover-color);
     transform: scale(1.3);
 }
 @media (min-width: 768px) {
