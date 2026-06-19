@@ -1,19 +1,14 @@
 import './projetsection.css'
 
-function Projetsection(props) {
+function Projetsection({titre, children}) {
     return (
-        <>
             <div className="projetsection">
-                <h3>{props.titre}</h3>
+                <h3>{titre}</h3>
 
                 <div className="projetsection-txt">
-                    <p>
-                        {props.texte}
-                    </p>
+                    {children}
                 </div>
             </div>
-
-        </>
     )
 }
 export default Projetsection

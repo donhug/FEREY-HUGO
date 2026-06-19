@@ -8,6 +8,7 @@
     --background-color:#F5F5F5;
     --sec--background-color:white;
     --border-color:#ff8e3c;
+    --hover-color:#ff8e3c;
 }
 
 *, *::before, *::after {

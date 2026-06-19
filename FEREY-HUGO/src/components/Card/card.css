@@ -15,7 +15,7 @@
     transition: color 0.2s ease;
 }
 .card:hover .card-info h3{
-    color: var(--border-color);
+    color: var(--hover-color);
 }
 
 .card-img{
@@ -54,20 +54,4 @@
     padding:2px 8px;
     border-radius:20px;
     font-size:0.75rem;
-}
-
-.card-git{
-    display:flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-    gap:1rem;
-    margin-top: auto;
-    font-size:0.75rem;
-}
-.card-git a{
-    transition: all 0.2s ease;
-}
-.card-git a:hover{
-    color: var(--primary-color);
-    transform: translateY(-2px);
 }

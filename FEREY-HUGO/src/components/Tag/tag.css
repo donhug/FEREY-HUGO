@@ -1,5 +1,5 @@
 .tag{
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     width: fit-content;
     padding: 1px 5px;
     border-radius: 99px;
@@ -9,7 +9,6 @@
 
 @media (min-width: 1024px) {
     .tag{
-        margin-bottom:20px;
-        margin-right:35px;
+        padding:5px 15px;
     }
 }
