@@ -20,20 +20,6 @@ function Card(props) {
                     </ul>
                 </div>
             </Link>
-
-            <div className="card-git">
-                <a href={props.github} target="_blank" rel="noreferrer">
-                    <i className="fa-brands fa-github"></i>
-                    github
-                </a>
-
-                {props.live && (
-                    <a href={props.live} target="_blank" rel="noreferrer">
-                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                        live
-                    </a>
-                )}
-            </div>
         </div>
     )
 }

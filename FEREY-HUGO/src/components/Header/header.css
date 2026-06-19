@@ -31,7 +31,7 @@ header{
     transition: all 0.2s ease ;
 }
 .header-logo a:hover{
-    color: var(--secondary-color);
+    color: var(--hover-color);
     transform: scale(1.2);
 }
 .header-top{
@@ -77,6 +77,6 @@ header{
 /* Desktop */
 @media (min-width: 1024px) {
     .header-nav a:hover{
-        color: var(--primary-color);
+        color: var(--hover-color);
     }
 }

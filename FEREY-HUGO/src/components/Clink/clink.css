@@ -14,7 +14,8 @@
 }
 .main-link:hover{
     transform: translateY(-10px);
-    background-color: var(--tag-color);
+    background-color: var(--hover-color);
+    color:white;
 }
 
 @media (min-width: 768px) {

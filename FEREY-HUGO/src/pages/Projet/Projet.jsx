@@ -26,20 +26,39 @@ function Projet(){
                         </div>
 
                         <div className="projet-info">
-                            <div className="projet-tags">
-                                {projet.tags.map((tag, index) => (
-                                    <Tag
-                                        key={index}
-                                        txt={tag}
-                                    />
-                                ))}
-                            </div>
 
-                            <Projetsection titre="Contexte" texte={projet.description.contexte} />
-                            <Projetsection titre="Objectifs" texte={projet.description.objectifs} />
-                            <Projetsection titre="Comptétences développées" texte={projet.description.competences} />
-                            <Projetsection titre="Résultats" texte={projet.description.resultats} />
-                            <Projetsection titre="Perspective d'amélioration" texte={projet.description.amelioration} />
+                            <Projetsection titre="Contexte">
+                                <p>{projet.description.contexte}</p>
+                            </Projetsection>
+
+                            <Projetsection titre="Objectifs">
+                                <p>{projet.description.objectifs}</p>
+                            </Projetsection>
+
+                            <Projetsection titre="Comptétences développées">
+                                <p>{projet.description.competences}</p>
+                            </Projetsection>
+
+                            <Projetsection titre="Résultats">
+                                <p>{projet.description.resultats}</p>
+                            </Projetsection>
+
+                            <Projetsection titre="Perspective d'amélioration">
+                                <p>{projet.description.amelioration}</p>
+                            </Projetsection>
+
+                            <Projetsection titre="Technologies utilisées">
+                                <div className="projet-tags">
+                                    {projet.tags.map((tag, index) => (
+                                        <Tag
+                                            key={index}
+                                            txt={tag}
+                                        />
+                                    ))}
+                                </div>
+                            </Projetsection>
+
+
 
                             <div className="projet-git">
                                 <a href={projet.github} target="_blank" rel="noreferrer" className="github-hover">
