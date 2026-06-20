@@ -19,22 +19,10 @@
     display: flex;
     flex-direction: column;
 }
-.about-txt{
-    border:1px var(--primary-color) solid;
-    border-radius: 15px;
-    text-align: center;
-    margin: 10px 0;
-}
-.name{
+
+.fort{
     font-weight: bold;
-    color: var(--primary-color);
-}
-.forma{
-    font-weight: bold;
-    color: var(--secondary-color);
-}
-.about-txt p{
-    margin-bottom: 20px;
+    color: var(--tag-color);
 }
 .about-tag{
     display: flex;
@@ -45,14 +33,7 @@
 }
 @media (min-width: 768px) {
     .about-main{
-        flex-direction: row;
         gap: 20px;
-    }
-    .about-txt{
-        width: 100%;
-    }
-    .about-txt p{
-        margin-bottom: 10px;
     }
     .about-tag{
         width: 25%;
@@ -61,12 +42,8 @@
 }
 
 @media (min-width: 1024px) {
-    .about-txt{
-        padding:20px ;
-        width: 65%;
-    }
-    .about-txt p{
-        font-size: 20px;
+    .about-main{
+        gap: 20px;
     }
     .about-tag{
         width: 25%;
