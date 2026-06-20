@@ -1,0 +1,20 @@
+.apropossection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    background: var(--background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+}
+
+.apropossection h3{
+    color:var(--secondary-color);
+}
+
+@media (min-width: 1024px) {
+    .apropossection-txt{
+        font-size: 20px;
+    }
+}
