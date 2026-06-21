@@ -42,10 +42,10 @@ const Carrousel = (props) => {
                             <p>{index+1}/{props.images.length}</p>
                         </div>
                         <div className="carrousel__btn">
-                            <button onClick={avant} className="btn__droite">
+                            <button onClick={avant} className="btn__droite" aria-label="image suivante">
                                 <i className="fa-solid fa-angle-left"></i>
                             </button>
-                            <button onClick={arriere} className="btn__gauche">
+                            <button onClick={arriere} className="btn__gauche" aria-label="image précedente">
                                 <i className="fa-solid fa-angle-right"></i>
                             </button>
                         </div>
