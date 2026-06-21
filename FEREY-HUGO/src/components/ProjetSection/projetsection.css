@@ -13,7 +13,7 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
-.projetsection h3{
+.projetsection h2{
     color:var(--secondary-color);
 }
 .projetsection-txt{
