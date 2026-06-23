@@ -1,0 +1,13 @@
+.projet-git{
+    margin: 10px 0;
+}
+.projet-git{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.github-hover:hover{
+    color: var(--hover-color);
+    transform: scale(1.05);
+    transition: color 0.2s ease, transform 0.2s;
+}

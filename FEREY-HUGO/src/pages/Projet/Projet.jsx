@@ -5,6 +5,8 @@ import Carrousel from "../../components/Carrousel/carrousel.jsx";
 import Tag from "../../components/Tag/tag.jsx";
 import Erreur from "../Erreur/Erreur.jsx";
 import Projetsection from "../../components/ProjetSection/projetsection.jsx"
+import ProjetText from "../../components/ProjetTexte/projetText.jsx"
+import ProjetGit from "../../components/ProjetGit/projetGit.jsx";
 
 function Projet(){
     const {id} = useParams();
@@ -14,10 +16,12 @@ function Projet(){
     return (
         <>
             <section className="projet-main">
+
                 <div className="section-inner">
                     <div className="projet-titre">
                         <h1>{projet.title}</h1>
                     </div>
+
                     <div className="projet-desktop">
                         <div className="projet-carrousel">
                             <Carrousel
@@ -26,27 +30,7 @@ function Projet(){
                         </div>
 
                         <div className="projet-info">
-
-                            <Projetsection titre="Contexte">
-                                <p>{projet.description.contexte}</p>
-                            </Projetsection>
-
-                            <Projetsection titre="Objectifs">
-                                <p>{projet.description.objectifs}</p>
-                            </Projetsection>
-
-                            <Projetsection titre="Comptétences développées">
-                                <p>{projet.description.competences}</p>
-                            </Projetsection>
-
-                            <Projetsection titre="Résultats">
-                                <p>{projet.description.resultats}</p>
-                            </Projetsection>
-
-                            <Projetsection titre="Perspective d'amélioration">
-                                <p>{projet.description.amelioration}</p>
-                            </Projetsection>
-
+                            <ProjetText projet={projet} />
                             <Projetsection titre="Technologies utilisées">
                                 <div className="projet-tags">
                                     {projet.tags.map((tag, index) => (
@@ -57,23 +41,9 @@ function Projet(){
                                     ))}
                                 </div>
                             </Projetsection>
-
-
-
-                            <div className="projet-git">
-                                <a href={projet.github} target="_blank" rel="noreferrer" className="github-hover">
-                                    <i className="fa-brands fa-github"></i>
-                                    github
-                                </a>
-
-                                {projet.live && (
-                                    <a href={projet.live} target="_blank" rel="noreferrer" className="github-hover">
-                                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                                        live
-                                    </a>
-                                )}
-                            </div>
+                            <ProjetGit projet={projet} />
                         </div>
+
                     </div>
 
                 </div>
