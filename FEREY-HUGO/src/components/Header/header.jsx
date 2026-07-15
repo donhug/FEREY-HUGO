@@ -17,7 +17,7 @@ function Header() {
                         <i className={Open ?"fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
                     </button>
                 </div>
-                <div className={`header-nav ${Open ? 'open' : ''}`}>
+                <div className={`header-nav header-color ${Open ? 'open' : ''}`}>
                     <HashLink to="/#projets">Projets</HashLink>
                     <HashLink to="/#section-technos">Compétences</HashLink>
                     <HashLink to="/#section-about">A propos</HashLink>

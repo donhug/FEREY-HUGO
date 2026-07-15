@@ -31,6 +31,7 @@ function Projet(){
 
                         <div className="projet-info">
                             <ProjetText projet={projet} />
+
                             <Projetsection titre="Technologies utilisées">
                                 <div className="projet-tags">
                                     {projet.tags.map((tag, index) => (

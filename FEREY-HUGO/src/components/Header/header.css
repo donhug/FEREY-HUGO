@@ -22,7 +22,6 @@ header{
 .header-nav.open{
     flex-direction: column ;
 }
-
 .header-logo{
     justify-content: center;
 }
@@ -51,7 +50,7 @@ header{
 }
 .header-nav a{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 
 

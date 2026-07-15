@@ -13,7 +13,7 @@ function Card(props) {
                     <h3>{props.title}</h3>
                     <p>{props.description}</p>
 
-                    <ul>
+                    <ul className="tags-texte-colors">
                         {props.tags.map((tag, index) => (
                             <li key={index}>{tag}</li>
                         ))}
