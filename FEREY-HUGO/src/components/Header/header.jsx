@@ -16,7 +16,9 @@ function Header() {
                         </a>
                     </div>
                     <div className="header-actions">
-                        <button onClick={toggleTheme} className="theme-btn theme-btn--mob" aria-label="mode sombre"></button>
+                        <button onClick={toggleTheme} className="theme-btn theme-btn--mob" aria-label="mode sombre">
+                            <i className={theme === 'light' ? 'fa-solid fa-sun' : 'fa-solid fa-moon'}></i>
+                        </button>
                         <button onClick={() => setOpen(!Open)} className="header-btn" aria-label="Menu de navigation">
                             <i className={Open ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
                         </button>
@@ -29,7 +31,10 @@ function Header() {
                     <HashLink to="/#section-technos">Compétences</HashLink>
                     <HashLink to="/#section-about">A propos</HashLink>
                     <HashLink to="/#contact">Contact</HashLink>
-                    <button onClick={toggleTheme} className="theme-btn theme-btn--desk" aria-label="mode sombre"></button>
+
+                    <button onClick={toggleTheme} className="theme-btn theme-btn--desk" aria-label="mode sombre">
+                        <i className={theme === 'light' ? 'fa-solid fa-sun' : 'fa-solid fa-moon'}></i>
+                    </button>
                 </div>
 
             </div>
