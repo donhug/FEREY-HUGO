@@ -29,6 +29,10 @@
     margin: 10px 0 10px 0;
     font-size: 30px;
 }
+.btn__droite,
+.btn__gauche{
+    color: var(--text-color);
+}
 .btn__droite:hover,.btn__gauche:hover{
     transition: transform 0.3s ease, color 0.2s;
     color:var(--hover-color);

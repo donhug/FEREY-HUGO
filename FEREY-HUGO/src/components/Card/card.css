@@ -39,7 +39,9 @@
     margin:10px;
     gap:5px;
 }
-
+.tags-texte-colors{
+    color:var(--tag-txt-color);
+}
 .card-info ul{
     list-style:none;
     display:flex;
