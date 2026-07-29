@@ -16,7 +16,7 @@ function Hero() {
                             <span className="title-color">Integrateur Web</span>
                         </h1>
                         <p>
-                            je conçois et intègre des interfaces web soignées, accéssibles et performante.
+                            Je conçois et intègre des interfaces web soignées, accessibles et performantes.
                             Formé au Front-end.
                         </p>
                     </div>
